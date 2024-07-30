@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(249, 222, 213);
+    color: crimson;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+label {
+    font-size: xx-large;
+}
+
+button {
+    background-color: rgb(249, 222, 213);
+    color: crimson;
+    letter-spacing: 1px;
+    font-weight:300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    border-width: 3px;
+    border-color: crimson;
+    border-radius: 20px;
+    box-shadow: 4px 2px 2px rgba(113, 2, 2, 0.98);
+}
