@@ -1,0 +1,35 @@
+body {
+   background-color: rgb(37, 36, 36);
+   color: darkgray;
+   text-align: center;
+   
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+}
+
+.radiusInput {
+    text-align: center;
+    width: 100px;
+    font-size: medium;
+    font-weight:bold;
+    border: solid black;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.951);
+    background-color: darkgray;
+
+
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    font-size: medium;
+    border: solid black;
+    width: 100px;
+    font-weight:bold;
+    background-color: darkgray;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.951);
+}
+
