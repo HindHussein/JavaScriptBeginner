@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(63, 27, 1);
+    text-align:center;
+}
+
+input {
+    background: antiquewhite;
+    font-size: medium;
+    font-weight:500;
+    color: rgb(63, 27, 1);;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border-color: rgb(63, 27, 1);
+    border-width: 2px;
+    box-shadow: 4px 1px 1px rgba(43, 2, 2, 0.9);
+}
+
+button {
+    background: antiquewhite;
+    font-size: medium;
+    font-weight:500;
+    color: rgb(63, 27, 1);;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border-color: rgb(63, 27, 1);
+    border-width: 2px;
+    box-shadow: 4px 1px 1px rgba(43, 2, 2, 0.9);
+}
