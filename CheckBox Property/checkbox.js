@@ -17,6 +17,19 @@ let myH3;
 submitButton.onclick = function() {
 
     if(nameInput.value.trim() !== ""){
+        if(nameInput.value.includes(" ")) {
+            let firstName = nameInput.value.slice(0, nameInput.value.indexOf(" "))
+            let lastName = nameInput.value.slice(nameInput.value.indexOf(" ") + 1)
+            
+            /*console.log("hey your name has an H in it");
+            let allH = nameInput.value.replaceAll("d", "E");
+            console.log(allH);*/
+
+            console.log(`Your first name is ${firstName}`);
+            console.log(`Your first name is ${lastName}`);
+        }
+
+
         nameInput.style.display = "none";
         graduateCheckBox.style.display = "none";
         graduateLabel.style.display = "none";
