@@ -1,0 +1,15 @@
+body {
+    background-color: black; 
+    color: whitesmoke;  
+    font-family: monospace;
+    text-align: center;
+}
+
+button {
+    background-color: black; 
+    color: whitesmoke;  
+    font-family: monospace;
+    border-width: 2px;
+    border-color: whitesmoke;
+    box-shadow: 2px 5px 1px ;
+}
