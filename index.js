@@ -57,9 +57,17 @@ console.log(age);
 
 */
 
+/*function add(x, y){
+    let result = x + y;
+    return result;
+}
 
+console.log("hello");
 
+let answer = add(6, 4);
+console.log(answer);
 
+*/
 
 
 
