@@ -1,3 +1,17 @@
+toSignUp = document.getElementById("toSignUp");
+toLogIn = document.getElementById("toLogIn");
+
+
+toSignUp.addEventListener('click', function(){
+    document.querySelector('.card').classList.add('flipped');
+});
+
+toLogIn.addEventListener('click', function(){
+    document.querySelector('.card').classList.remove('flipped');
+});
+
+
+
 function generatePassword(length, includeLowercase, includeUppercase, includeNumbers, includeSymbols){
     const lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
     const upperCaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -28,7 +42,7 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
     return password;
 }
 
-const passwordLength = 12;
+const passwordLength = 20;
 const includeLowercase = true;
 const includeUppercase = true;
 const includeNumbers = true;
@@ -36,3 +50,4 @@ const includeSymbols = true;
 
 const password = generatePassword(passwordLength, includeLowercase, includeUppercase, includeNumbers, includeSymbols);
 console.log(`Generate Password: ${password}`);
+
