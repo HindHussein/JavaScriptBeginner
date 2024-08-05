@@ -1,5 +1,8 @@
 toSignUp = document.getElementById("toSignUp");
 toLogIn = document.getElementById("toLogIn");
+createPasswordInput = document.getElementById("createPasswordInput");
+confirmPasswordInput = document.getElementById("confirmPasswordInput");
+const password = generatePassword(20, true, true, true, true);
 
 
 toSignUp.addEventListener('click', function(){
@@ -8,6 +11,17 @@ toSignUp.addEventListener('click', function(){
 
 toLogIn.addEventListener('click', function(){
     document.querySelector('.card').classList.remove('flipped');
+});
+
+createPasswordInput.addEventListener('click', function() {
+    console.log(`Generate Password Create: ${password}`);
+    createPasswordInput.value = password;
+    
+});
+
+confirmPasswordInput.addEventListener('click', function() {
+    console.log(`Generate Password Confirm: ${password}`);
+    confirmPasswordInput.value = password;
 });
 
 
@@ -48,6 +62,6 @@ const includeUppercase = true;
 const includeNumbers = true;
 const includeSymbols = true;
 
-const password = generatePassword(passwordLength, includeLowercase, includeUppercase, includeNumbers, includeSymbols);
-console.log(`Generate Password: ${password}`);
+//const password = generatePassword(passwordLength, includeLowercase, includeUppercase, includeNumbers, includeSymbols);
+//console.log(`Generate Password: ${password}`);
 
