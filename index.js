@@ -190,9 +190,17 @@ const car1 = new Car("Miata", "Mustang", 2018, "black");
 */
 
 /*class Product {
+    static productCount = 0;
+
     constructor(name, price) {
         this.name = name;
         this.price = price;
+        Product.productCount++;
+
+    }
+
+    static getProductCount(){
+        console.log(`The amount of products are currently: ${this.productCount}`);
     }
 
     displayProduct() {
@@ -211,11 +219,138 @@ const car1 = new Car("Miata", "Mustang", 2018, "black");
 }
 
 const product1 = new Product("Shirt", 20.99);
+
 //product1.withSalesTax(2);
 const salesTax = 5;
 product1.displayProduct();
 
 const total = product1.withSalesTax(salesTax);
-console.log(`Price with tax: ${total.toFixed(3)}`);*/
+console.log(`Price with tax: ${total.toFixed(3)}`);
+
+Product.getProductCount();
+
+//console.log(`The amount of products are currently: ${Product.productCount}`);
+*/
+
+/*class MathUtil{
+    static PI = 3.14;
+
+    static getDiameter(radius){
+        return radius * this.PI;
+    }
+}
+
+const math1 = MathUtil.PI;
+console.log(math1);
+
+const math2 = MathUtil.getDiameter(10);
+console.log(math2);*/
+
+/*class Rectangle{
+    constructor(width, height){
+        this.width = width;
+        this.height = height;
+    }
+
+    set width(newWidth){
+        if(newWidth > 0){
+            this._width = newWidth;
+        }
+        else {
+            console.error("Width must be a positive error");
+        }
+    }
+
+    set height(newHeight){
+        if(newHeight> 0){
+            this._height = newHeight;
+        }
+        else {
+            console.error("Height must be a positive error");
+        }
+    }
+
+    get width(){
+        return this._width;
+    }
+
+    get height(){
+        return this._height;
+    }
+}*/
 
 
+ /*const colors = ["red", "green", "blue", "black", "white"];
+ const[index1, secondColor, thirdColor] = colors;
+ console.log(index1); //prints red
+[colors[0], colors[4]] = [colors[4], colors[0]];
+//console.log(colors);
+*/
+
+/*function displayPerson({firstName, lastName, age, job="Software Developer"}){
+    console.log(`name: ${firstName} ${lastName}, ${age} years old, working as a ${job}`);
+}
+
+
+
+const person1 = {
+    firstName: "Reza",
+    lastName: "Yurtea", 
+    age: 34,
+    job: "Engineer",
+}
+
+const person2 = {
+    firstName: "Hind",
+    lastName: "Hussein", 
+    age: 21,
+}
+
+displayPerson(person1); //prints engineer 
+displayPerson(person2); //prints software developer
+
+/*const{firstName, lastName, age, job="unemployed"} = person2;
+console.log(job); //prints unemployed
+console.log(person2.job); //prints undefined*/
+
+/*const person = {
+    fullName: "Hind",
+    age: 30,
+    student: false,
+    hobbies: ["Coding", "breathing"],
+    address: {
+        street: "124 Conch St.",
+        city: "Ramallah",
+        country: "West Bank"
+    }
+}
+
+
+for(const property in person.address){
+    console.log(person.address[property]);
+}*/
+
+/*class Person{
+    constructor(name, age, ...address){
+        this.name = name;
+        this.age = age;
+        this.address = new Address(...address);
+
+    }
+}
+
+class Address{
+    constructor(street, city, country){
+        this.street = street;
+        this.city = city;
+        this.country = country;
+    }
+}
+
+const person = new Person("Hind", 21, "Rawabi Street", "Rawabi", "West Bank-Palestine");
+console.log(person.name);
+console.log(person.age);
+
+for(elements in person.address){
+    console.log(person.address[elements]);
+}*/
