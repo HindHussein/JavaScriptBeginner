@@ -354,3 +354,58 @@ console.log(person.age);
 for(elements in person.address){
     console.log(person.address[elements]);
 }*/
+
+//Date(year, month, day, hour, minute, second, millisecond)
+/*const date = new Date(2003, 4, 12, 8, 10, 25, 45)
+console.log(date);
+
+const date1 = new Date("2003-05-12T08:10:25Z")
+console.log(date1);
+
+const date2 = newDate();*/
+
+/*function outer(){
+    let message = "Hello";
+    function inner(){
+        console.log(message);
+
+    }
+    inner();
+}
+
+outer();*/
+
+/*function createCounter(){
+    let count = 0;
+
+    function increment(){
+        count++;
+        //console.log(count);
+    }
+
+    function getCount(){
+        return count;
+    }
+    return {increment, getCount};
+}
+
+const counter = createCounter();
+counter.increment();
+counter.increment();
+counter.increment();
+counter.increment();
+counter.increment();
+
+const count = counter.getCount();
+console.log(`The count is currently: ${count}`);
+
+
+function hello(){
+    console.log(hello);
+}
+
+setTimeout(hello, 3000);*/
+
+
+
+
