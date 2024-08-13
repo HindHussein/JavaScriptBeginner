@@ -407,5 +407,7 @@ function hello(){
 setTimeout(hello, 3000);*/
 
 
-
-
+/*
+const names = ["Hind", "Ayatt", "Reem", "Amal", "Mahmoud"];
+const jsonString = JSON.stringify(names);
+console.log(jsonString);*/
