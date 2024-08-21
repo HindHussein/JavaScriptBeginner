@@ -1,0 +1,101 @@
+body {
+    background-image: url('images/movie.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+input {
+    width: 150vh;
+    height: 5vh;
+    border-radius: 5px;
+    border-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBtn {
+    width: 60px;
+    height: 6vh;
+    background-color: rgb(76, 186, 255);
+    border: none;
+}
+
+.searchBtn img {
+    margin-left: 15px;
+}
+
+.moviePoster {
+    width: 50vh;
+    height: 70vh;
+}
+
+.movieTitle {
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.moviePoster,
+.movieTitle {
+   display: none;
+}
+
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    height: 30px;
+    width: 120px;
+}
+
+img {
+    margin-right: 30px;
+    width: 20px;
+    height: 20px;
+}
+
+.facebook {
+    background-color: rgb(30, 68, 114);
+    border-color: rgb(30, 68, 114);
+}
+
+.twitter {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+
+.whatsApp {
+    background-color: rgb(87, 255, 118);
+    border-color: rgb(87, 255, 118);
+}
+
+.messenger {
+    background-color: rgb(54, 140, 246);
+    border-color: rgb(54, 140, 246);
+}
+
+.reddit {
+    background-color: rgb(255, 64, 0);
+    border-color: rgb(255, 64, 0);
+}
+
+.telegram {
+    background-color: rgb(64, 188, 255);
+    border-color: rgb(64, 188, 255);
+}
