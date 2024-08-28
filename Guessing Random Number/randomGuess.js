@@ -8,6 +8,7 @@ let running = true;
 
 while (running) {
     guess = window.prompt(`Guess a Number Between ${minNum} and ${maxNum}`);
+    console.log(guess);
     guess = Number(guess);
 
     if (isNaN(guess)) {
